@@ -202,197 +202,226 @@
   }
   
 
-  @media screen and (max-width:480px) {
-    div img {
-    width: 7em;
-    height: auto;
-    margin-left: -13px;
-  }
   
+@media screen and (max-width:480px) {
+
   header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
-    width: 30rem;
+    padding: 3%;
     background-color: #a16d4aea;
   }
-  
+
   header ul {
     display: flex;
-    font-size: 0.9em;
+    font-size: 0.9rem;
   }
-  
+
   header ul li {
-    margin-left: 30px;
+    margin-left: 10px;
   }
-  
+
   header ul li a {
     text-decoration: none;
     color: #c7c0ba;
   }
-  
+
   header ul li a:hover {
     transition: 0.9s;
     color: #ecaa70ef;
   }
 
-  .div-button {
-    display: flex;
-    justify-content: center;
+  div img {
+    width: 8rem;
+    height: auto;
+    margin-left: -7px;
   }
 
-} 
-/*   
+  #myVideo {
+    position: static;
+  }
+
+  .content {
+    position: absolute;
+    margin-top: -40vh;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 99.7vw;
+    padding: 1rem;
+    height: 8rem;
+    font-size: 0.9rem;
+  }
+
   #myBtn {
     width: 200px;
-    font-size: 18px;
-    padding: 10px;
+    font-size: 0.9rem;
+    padding: 0.7rem;
     border: none;
     background: #000;
     color: #fff;
     cursor: pointer;
     border-radius: 12px;
+    margin-top: -10px;
   }
-  
+
   #myBtn:hover {
     background: #ddd;
     color: black;
-    transition: 0.9s;
   }
-  
+
   .sessao1 {
     display: flex;
-    padding: 10vh;
+    padding: 10%;
     background-color: #dcb69d;
     color: black;
   }
-  
+
   .sessao1 div p {
-    text-align: left;
-    margin: 0.5rem;
     font-weight: 600;
+    font-size: 0.5rem;
   }
-  
+
   #div-pai {
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
-    display: flex;
+    display: block;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-top: -180px;
+    margin-left: 160px;
+    margin-top: 80px;
   }
-  
+
   .blocos {
-    width: 12rem;
-    height: 13rem;
+    width: 10rem;
+    height: 10rem;
     border: 3px solid black;
     border-radius: 10px;
     font-size: 4rem;
-    box-shadow: 15px 15px 15px black;
+    box-shadow: 10px 10px 10px black;
   }
-  
-  #b1 img{
-   margin-left: 0px;
-   width: 101%;
-   height: 100%;
-   border-radius: 10px;
+
+  #b1 {
+    background-image: url(imagens/Dom.JPEG);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
   }
-  
-  #b2 img{
-    margin-left: 0px;
-    width: 101%;
-    height: 100%;
-    border-radius: 10px;
+
+  #b2 {
+    background-image: url(imagens/Mia.jpeg);
+    margin-bottom: 30px;
   }
-  
-  #b3 img{
-    margin-left: 0px;
-   width: 101%;
-   height: 100%;
-   border-radius: 10px;
+
+  #b3 {
+    background-image: url(imagens/Bryan.jpeg);
   }
-  
+
   section {
-    display: flex;
-    padding: 2vw;
+    display: block;
+    padding: 30%;
     justify-content: center;
     align-items: center;
-    gap: 80px;
     background-color: #b18f74;
   }
-  
+
   #divForm {
-    padding: 4vw;
+    width: 25rem;
+    height: 25rem;
     background-color: #5a3924e1;
     color: #a8876d;
     border: 1px solid black;
     border-radius: 60px;
     box-shadow: 10px 10px 10px black;
+    margin-top: -90px;
+    margin-left: -110px;
   }
-  
+
   #divForm h2 {
-    font-size: 1.5em;
+    font-size: 1.2rem;
     text-align: center;
-    margin-top: -15px;
+    margin-top: 8px;
     margin-bottom: 30px;
   }
-  
+
   #divForm input {
     border-radius: 9px;
   }
-  
+
   .enviar {
     display: flex;
     justify-content: center;
     gap: 30px;
   }
-  
+
   .enviar input {
-    width: 10vw;
+    width: 17vw;
     height: 4vh;
   }
-  
+
   #comentario {
-    width: 23vw;
+    width: 76vw;
     height: 20vh;
     border-radius: 10px;
   }
-  
+
   #divMap iframe {
+    width: 25rem;
+    height: 2rem;
     border-radius: 30px;
     box-shadow: 5px 5px 10px black;
     height: 68vh;
-    margin-top: 25px;
+    margin-top: 80px;
+    margin-left: -105px;
   }
-  
+
   footer {
+    padding: 3%;
     text-align: center;
     background-color: #a16d4a;
-    height: 45vh;
+    height: 55vh;
   }
-  
+
   #divFpai {
     display: flex;
     padding: 2vw;
     justify-content: space-evenly;
     align-items: center;
   }
-  
+
   #divFpai div {
-    width: 30vw;
+    width: 10rem;
   }
-  
+
+  #divFpai div h2 {
+    font-size: 1rem;
+  }
+
+  #divFpai div p {
+    font-size: 0.8rem;
+  }
+
+  #divFpai div .ctt {
+    margin-bottom: -8px;
+  }
+
+  #divFpai div .sobre {
+    margin-bottom: -10px;
+  }
+
   #divFpai div span {
     font-weight: 900;
   }
-  
+
   #divFpai a {
     text-decoration: none;
     color: black;
   }
+
+  #copy {
+    font-size: 1.2rem;
+    margin-top: -2px;
   }
-   */
+
+}
